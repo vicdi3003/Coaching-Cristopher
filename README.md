@@ -1,9 +1,9 @@
 # Practice HTML, CSS and JS
 
 This is a learning purpose repository for practicing HTML, CSS and JS.
-Projects are created for each topic in (Freecodecamp)[https://www.freecodecamp.org/learn/2022/responsive-web-design/] course.
+Projects are created for each topic in [Freecodecamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/) course.
 
-Visit (trello board)[https://trello.com/b/XGKSW6rb/nathaly-learning-path] for project status and progress.
+Visit [trello board](https://trello.com/b/XGKSW6rb/nathaly-learning-path) for project status and progress.
 
 ## Styleguide
 
