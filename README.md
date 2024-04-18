@@ -5,6 +5,16 @@ Projects are created for each topic in [Freecodecamp](https://www.freecodecamp.o
 
 Visit [trello board](https://trello.com/b/XGKSW6rb/nathaly-learning-path) for project status and progress.
 
+## Prerequisites
+
+- [NodeJS](https://nodejs.org/en/download).
+- [Prettier extension for VS Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
+- [Eslint extension for VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+## Getting started
+
+- Intall packages with `npm install`
+
 ## Styleguide
 
 - Indentation should be 2 spaces.
