@@ -42,9 +42,9 @@ img {
 
 
 hr {
-  height: 2px;
   background-color: brown;
   border-color: brown;
+  height: 2px;
 }
 
 .bottom-line {
@@ -85,18 +85,6 @@ footer {
   margin-bottom: 5px;
 }
 
-a {
+a:visited,a,a:hover,a:active {
   color: black;
-}
-
-a:visited {
-  color: black;
-}
-
-a:hover {
-  color: brown;
-}
-
-a:active {
-  color: brown;
 }
