@@ -1,13 +1,13 @@
 body {
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
   font-family: sans-serif;
   padding: 20px;
 }
 
 h1 {
   font-size: 40px;
-  margin-top: 0;
   margin-bottom: 15px;
+  margin-top: 0;
 }
 
 h2 {
@@ -59,8 +59,8 @@ h2 {
 .item p {
   display: inline-block;
   font-size: 18px;
-  margin-top: 5px;
   margin-bottom: 5px;
+  margin-top: 5px;
 
 }
 
@@ -85,6 +85,9 @@ footer {
   margin-bottom: 5px;
 }
 
-a:visited,a,a:hover,a:active {
+a,
+a:visited,
+a:hover,
+a:active {
   color: black;
 }
