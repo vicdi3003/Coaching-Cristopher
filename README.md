@@ -10,6 +10,7 @@ Visit [trello board](https://trello.com/b/XGKSW6rb/nathaly-learning-path) for pr
 - [NodeJS](https://nodejs.org/en/download).
 - [Prettier extension for VS Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
 - [Eslint extension for VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Stylelint extension for VS Code](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 
 ## Getting started
 
