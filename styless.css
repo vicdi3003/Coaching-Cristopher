@@ -1,0 +1,41 @@
+.container {
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+
+.video-container {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -3;
+}
+
+video {
+  width: 100%;
+}
+
+* {
+  background-color: black;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+nav {
+  color: aliceblue;
+  text-align: right;
+
+}
+
+a {
+  color: aliceblue;
+}
+
+nav a:active {
+  color: aqua;
+}
