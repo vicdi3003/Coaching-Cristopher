@@ -20,12 +20,13 @@
     width: 425px;
 }
 
-.one, .two {
+.one, 
+.two {
     border-radius: 9px;
     box-shadow: 0 0 3px 3px #efb762;
     filter: blur(1px);
     transform: rotate(-0.6deg);
-  }
+}
 
 .two {
     background-color: #8f0401;
