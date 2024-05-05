@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(to right, transparent, rgb(100 131 231)),
+  url("fondo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 630px;
+  min-width: 768px;
+}
+
+/** Content Form **/
+
+.form {
+  background-color: rgba(2 2 37 / 80%);
+  border-radius: 2.3rem;
+  padding: 2.5rem 0.6rem ;
+}
+
+.form-select {
+  margin-top: 0%;
+}
+
+.form-input {
+  border-radius: 0.2rem;
+  display: block;
+  height: 2rem;
+  width: 89.34%;
+}
+
+.form-radio,
+.form-checkbox {
+  display: inline-block;
+  margin-right: 0.6rem;
+  max-height: 1rem;
+  min-width: 1rem;
+}
+
+.form-textarea {
+  height: 35%;
+  margin-bottom: 1.5%;
+  min-height: 120px;
+  padding: 0.62rem;
+  resize: vertical;
+  width: 66%;
+}
+
+.form-submit {
+  background-color: rgb(8 51 168);
+  border-radius: 5px;
+  color: inherit;
+  display: block;
+  padding: 0.6rem;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 400;
+  margin-bottom: 0%;
+  margin-top: 0.5rem;
+}
+
+header p {
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  margin-top: 0%;
+}
+
+input {
+  border: 0%;
+  margin-right: 0.62rem;
+  max-height: 2rem;
+  min-width: 2rem;
+}
+
+label {
+  display: flex;
+  margin-bottom: 0.5px;
+}
