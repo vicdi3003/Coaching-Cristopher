@@ -3,9 +3,9 @@
 }
 
 body {
-  background-color:#f5f6f7;
-  font-family:sans-serif;
-  margin:0;
+  background-color: #f5f6f7;
+  font-family: sans-serif;
+  margin: 0;
 }
 
 .gallery::after {
@@ -22,8 +22,8 @@ body {
 }
 
 .gallery {
-  align-items:center;
-  display:flex;
+  align-items: center;
+  display: flex;
   flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
@@ -34,10 +34,10 @@ body {
 }
 
 .header {
-    background-color: #0a0a23;
-    border-bottom: 4px solid #fdb347;
-    color:#fff;
-    padding: 32px;
-    text-align: center;
-    text-transform: uppercase;
+  background-color: #0a0a23;
+  border-bottom: 4px solid #fdb347;
+  color: #fff;
+  padding: 32px;
+  text-align: center;
+  text-transform: uppercase;
 }
