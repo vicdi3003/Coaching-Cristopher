@@ -1,8 +1,52 @@
+
+footer a {
+  color: var(--primary-color);
+}
+
+a> :last-child {
+  border-bottom: 0.2px var(--text-color) solid;
+}
+
+header,
+.header {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header a{
+  color: var(--primary-color);
+}
+
+/* 
+a > div > h5 {
+  float: right;
+} */
+
+/* a > a:hover {
+  border-top: 1px var(--text-color) solid;
+} */
+
+* {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
 body {
   background-image: url("background.png");
 }
 
-* body {
+.header {
+  float: right;
+  text-align: right;
+}
+
+h1 {
+  /* display: block; */
+  float: left;
+  margin-top: 0;
+}
+
+/* * body {
   align-items: center;
   color: green;
   font-size: 16px;
@@ -19,3 +63,95 @@ footer {
   max-width: 630px;
   min-width: 768px;
 }
+
+h1  {
+  text-align: center;
+  margin-top: 2.5rem;
+  color: aqua;
+
+}
+
+.header * {
+  display: grid;
+  margin-bottom: 0;
+  padding:25px;
+} */
+
+body > 
+header, 
+.header, 
+.home-page {
+  background-color: white;
+  color: var(--text-color);
+  font-family: var(--dont-family);
+  margin: 0 auto;
+  margin: auto;
+  max-width: 1200px;
+}
+
+body>
+header, 
+.header {
+  padding: 0 25px;
+}
+
+.home-page {
+  padding: 25px;
+}
+
+/* * {
+  transition: all 0.3s;
+} */
+
+:root {
+  --dont-family: 'Helvetica', sans-serif;
+  --element-height: 50px;
+  --primary-color:  #5AB2FF;
+  --secondary-color: #FFF9D0;
+  --spacing: 10px;
+  --spacing-xs: 5px; 
+  --text-color: #333;
+  --transition: all 0.3s;
+}
+
+footer {
+  margin: 0 20px;
+  padding: 20px 0 0;
+  text-align: center;
+}
+
+/* 
+form input {
+  color: var(--secondary-color);
+} */
+
+form > input {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 8%;
+  color: var(--secondary-color);
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 55px;
+  margin-top: 55px;
+  text-align: center;
+}
+
+#web-descripcion {
+  border-bottom: 1px var(--primary-color) solid;
+  padding-bottom: 25px;
+}
+
+/* .post {
+  border-bottom: 1px var(--text-color) solid;
+} */
