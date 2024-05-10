@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>We Life</title>
+  </head>
+  <body>
+    <header>
+      <h1>Registration Form</h1>
+    </header>
+    <h2>Registration Form</h2>
+    <p>
+      Please fill out this form with the required information.
+    </p>
+    <form action="../homepage/index.html">
+      <fieldset>
+        <label for="name">Enter Your First Name:</label>
+        <input id="name" name="name" type="text" required />
+        <label for="last-name">Enter Your Last Name:</label>
+        <input id="last-name" name="last-name" type="text" required />
+        <label for="email">Enter Your Email: </label>
+        <input id="email" name="email" type="email" placeholder="xx@gmail.com" required />
+        <label for="address">Enter your Address</label>
+        <input id="address" name="address" type="text" placeholder="Calle no.1" required>
+        <label for="city">Enter Your City</label>
+        <input id="city" name="city" type="text" placeholder="Miami" required>
+        <label for="state">Enter your State</label>
+        <input id="state" name="state" type="text" placeholder="California" required>
+        <label for="zip">Enter your Zip</label>
+        <input id="zip" name="zip" type="text" placeholder="1234" required>
+        <label for="country">Enter your Country</label>
+        <input id="country" name="country" type="text" placeholder="New york" required>
+        <label for="phone">Enter your Phone</label>
+        <input id="phone" name="phone" type="text" placeholder="00000000" required>
+        <label for="new-password">Create a New Password:</label>
+        <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required />
+        <label for="confirm">Confirm a New Password:</label>
+        <input id="confirm" name="confirm" type="password" pattern="[a-z0-5]{8,}" required />
+      </fieldset>
+      <fieldset>
+        <label for="age">Input your age (years):</label>
+        <input id="age" type="number" name="age" min="13" max="120" />
+        <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" />I accept the <a href="../terms/index.html">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit">
+    </form>
+    <footer>
+      <p>
+        Autor's name: <a href="https://github.com/vnathaly" target="_blank">Nathaly</a>
+      </p>
+    </footer>
+  </body>
+</html>

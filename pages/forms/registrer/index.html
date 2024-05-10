@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>We Life</title>
+  </head>
+  <body>
+    <header>
+      <h1>Registration Form</h1>
+    </header>
+    <h2>Registration Form</h2>
+    <p>
+      Please fill out this form with the required information.
+    </p>
+    <form action="../newpage/index.html" >
+      <fieldset>
+        <label for="first-name">Enter Your First Name:</label>
+        <input id="first-name" name="first-name" type="text" required />
+        <label for="last-name">Enter Your Last Name:</label>
+        <input id="last-name" name="last-name" type="text" required />
+        <label for="email">Enter Your Email: </label>
+        <input id="email" name="email" type="email" required />
+        <label for="new-password">Create a New Password:</label>
+        <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required />
+      </fieldset>
+      <fieldset>
+        <label for="age">Input your age (years):</label>
+        <input id="age" type="number" name="age" min="13" max="120" />
+        <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" />I accept the <a href="/pages/forms/terms/index.html">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit">
+    </form>
+    <footer>
+      <p>
+        Autor's name: <a href="https://github.com/vnathaly" target="_blank">Nathaly</a>
+      </p>
+    </footer>
+  </body>
+</html>
