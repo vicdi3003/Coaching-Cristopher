@@ -1,3 +1,5 @@
+/* Variables */
+
 :root {
   --dont-family: 'Helvetica', sans-serif;
   --element-height: 50px;
@@ -9,20 +11,39 @@
   --transition: all 0.3s;
 }
 
+/* Registration description */
+
+body > p:nth-child(2n+1) {
+  padding-top: 25px;
+}
+
+h2 {
+  margin-bottom: 55px;
+  margin-top: 55px;
+  text-align: center;
+}
+
+/* Login subtitle */
+
+body > h2:nth-child(2) {
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+/* Home Page */
+
 header,
 .header {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-body > 
-header,
-.header, 
-.home-page,
-h2,
-fieldset,
-.inline,
-form > label {
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+body > :not(footer) {
   background-color: white;
   color: var(--text-color);
   font-family: var(--dont-family);
@@ -31,46 +52,10 @@ form > label {
   max-width: 1200px;
 }
 
-/* body > p:nth-child(2n+1) {
-  background-color: white;
-  color: var(--text-color);
-  font-family: var(--dont-family);
-  margin: 0 auto;
-  margin: auto;
-  max-width: 1200px;
-}  */
-
-/* * body {
-  background-color: white;
-  color: var(--text-color);
-  font-family: var(--dont-family);
-  margin: 0 auto;
-  margin: auto;
-  max-width: 1200px;
-} */
-
-/* form > label:nth-child(2n+1) {
-  background-color: white;
-  color: var(--text-color);
-  font-family: var(--dont-family);
-  margin: 0 auto;
-  margin: auto;
-  max-width: 1200px;
-} */
-
-* footer > p a {
-  color: var(--primary-color);
-}
-
-* a > :last-child {
+.home-page a > :last-child {
   color: rgb(128 124 124);
   font-style: italic;
   text-align: right;
-}
-
-* :not(div > h5, p) {
-  color: var(--text-color);
-  text-decoration: none;
 }
 
 #web-descripcion {
@@ -78,17 +63,16 @@ form > label {
   padding-bottom: 25px;
 }
 
-a:hover > :last-child {
-  border-top: 1px white solid;
-  text-align: right;
+footer a {
+  background-color: none;
+  color: var(--primary-color);
+  max-width: 0;
+  padding: 0;
 }
 
-a:hover > :first-child {
-  border-bottom: 1px white solid;
-}
-
-a:hover > div {
+.home-page a:hover {
   border: 2px rgb(119 116 116) solid;
+  display: block;
 }
 
 a > :last-child {
@@ -101,11 +85,13 @@ a :last-child > p {
   text-align: right;
 }
 
-.home-page > a > div > p, h5 {
+.home-page > a > .post > p, h5 {
   display: block;
   margin-bottom: 0;
   padding: 0;
 }
+
+/* All posts */
 
 body {
   background-image: url("background.png");
@@ -114,11 +100,6 @@ body {
 footer {
   margin: 0 20px;
   padding: 20px 0 0;
-  text-align: center;
-}
-
-form {
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -138,10 +119,6 @@ form > input:first-child {
   text-align: right;
 }
 
-.header a{
-  color: var(--primary-color);
-}
-
 h1 {
   float: left;
   margin-top: 0;
@@ -155,33 +132,8 @@ h5::after {
   padding: 25px;
 }
 
-h2 {
-  margin-bottom: 55px;
-  margin-top: 55px;
-  text-align: center;
-}
-
-/* body > label {
-  display: inline-block;
-  margin-bottom: 5px;
-}
-
-body > fieldset {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 10px;
-} */
-
-/* Registration CSS */
-
-body > label {
-  display: block; 
-  margin-bottom: 5px; 
-}
-
-body > form > fieldset > label {
-  display: flex;
-  width: 200px; 
+body > form label {
+  display: block;
 }
 
 #name,
@@ -194,29 +146,17 @@ body > form > fieldset > label {
 #zip,
 #country,
 #phone,
+#password,
 #new-password,
 #confirm,
 #age,
-textarea {
+textarea,
+body > form input[type="name"], input[type="password"] { 
   border: 0.5px var(--text-color) solid;
   display: block;
   height: 2rem;
   width: 89.34%;
 }
-
-/* body >
-header,
-h2,
-form > fieldset {
-  background-color: white;
-  color: var(--text-color);
-  font-family: var(--dont-family);
-  margin: 0 auto;
-  margin: auto;
-  max-width: 1200px;  
-} */
-
-/* Gon Character */
 
 body >
 h1,
@@ -225,13 +165,57 @@ main {
   background-color: white;
   color: var(--text-color);
   font-family: var(--dont-family);
-  margin: 0 auto;
   margin: auto;
   max-width: 1200px;
 }
 
 img {
+  display: flexbox;
   height: auto;
-  margin: 0 auto;
+  justify-content: center;
+  margin-top: 15px;
   max-width: 500px;
+  padding-bottom: 0;
+  padding-top: 30px;
+  width: 500px;
+}
+
+#img-description {
+  display: flex;
+  position: absolute;
+}
+
+/* main > .content,
+.field-content > img {
+  height: auto;
+  margin-top: 15px;
+  max-width: 500px;
+  padding-bottom: 0;
+  padding-top: 30px;
+  width: 500px;
+} */
+
+/* .text > img {
+  align-items: center;
+  height: auto;
+  margin-top: 15px;
+  max-width: 500px;
+  width: 500px;
+} */
+
+/* Login CSS */
+
+body > form {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+label.name {
+  padding-top: 65px;
+}
+
+/* Posts */
+
+body > main div {
+  display: inline;
 }
