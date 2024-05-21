@@ -1,0 +1,219 @@
+/* Variables */
+
+:root {
+  --dont-family: 'Helvetica', sans-serif;
+  --element-height: 50px;
+  --primary-color:  #5AB2FF;
+  --secondary-color: #FFF9D0;
+  --spacing: 10px;
+  --spacing-xs: 5px; 
+  --text-color: #333;
+  --transition: all 0.3s;
+}
+
+/* If I didn't put it here it gave me an error */
+
+footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+form a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+main a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Registration description */
+
+body > p:nth-child(2n+1) {
+  padding-top: 25px;
+}
+
+h2 {
+  margin-bottom: 55px;
+  margin-top: 55px;
+  text-align: center;
+}
+
+label a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Login subtitle */
+
+body > h2:nth-child(2) {
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+/* Home Page */
+
+header,
+.header {
+  text-transform: uppercase;
+}
+
+.home-page a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+body > :not(footer) {
+  background-color: white;
+  color: var(--text-color);
+  font-family: var(--dont-family);
+  margin: 0 auto;
+  margin: auto;
+  max-width: 1200px;
+}
+
+/* Comemmts */
+
+.home-page a > :last-child {
+  color: rgb(128 124 124);
+  display: flex;
+  font-size: small;
+  font-style: italic;
+  justify-content: right;
+  width: 100%;
+}
+
+.home-page a > div > p:last-child {
+  margin-left: 10px;
+  margin-top: 16.505px;
+}
+
+/* Homepage */
+
+#web-descripcion {
+  border-bottom: 1px var(--primary-color) solid;
+  padding-bottom: 25px;
+}
+
+.header a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.home-page a:hover {
+  border: 2px rgb(119 116 116) solid;
+  display: block;
+}
+
+input[type="submit"] {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 8%;
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px 15px;
+}
+
+a > :last-child {
+  border-bottom: 0.2px var(--text-color) solid;
+}
+
+/* All posts */
+
+body {
+  background-image: url("background.png");
+}
+
+footer {
+  margin: 0 20px;
+  padding: 20px 0 0;
+  text-align: center;
+}
+
+.header {
+  float: right;
+  text-align: right;
+}
+
+h1 {
+  float: left;
+  margin-top: 0;
+}
+
+h5::after {
+  content: " /";
+}
+
+.home-page {
+  padding: 25px;
+}
+
+body > form label {
+  display: block;
+}
+
+#name,
+#first-name,
+#last-name,
+#email,
+#address,
+#city,
+#state,
+#zip,
+#country,
+#phone,
+#password,
+#new-password,
+#confirm,
+#age,
+textarea,
+body > form input[type="name"],
+input[type="password"] { 
+  border: 0.5px var(--text-color) solid;
+  display: block;
+  height: 2rem;
+  width: 89.34%;
+}
+
+body >
+h1,
+.header,
+main {
+  background-color: white;
+  color: var(--text-color);
+  font-family: var(--dont-family);
+  margin: auto;
+  max-width: 1200px;
+}
+
+img {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  max-width: 500px;
+  padding-bottom: 0;
+  padding-top: 30px;
+  width: 500px;
+}
+
+#img-description {
+  display: flex;
+  position: absolute;
+}
+
+/* Login CSS */
+
+body > form {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+label.name {
+  padding-top: 65px;
+}
