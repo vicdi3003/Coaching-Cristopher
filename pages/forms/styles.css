@@ -13,17 +13,7 @@
 
 /* If I didn't put it here it gave me an error */
 
-footer a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-form a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-main a {
+* a {
   color: var(--primary-color);
   text-decoration: none;
 }
@@ -144,7 +134,7 @@ h1 {
   margin-top: 0;
 }
 
-h5::after {
+.home-page h5::after {
   content: " /";
 }
 
@@ -156,23 +146,7 @@ body > form label {
   display: block;
 }
 
-#name,
-#first-name,
-#last-name,
-#email,
-#address,
-#city,
-#state,
-#zip,
-#country,
-#phone,
-#password,
-#new-password,
-#confirm,
-#age,
-textarea,
-body > form input[type="name"],
-input[type="password"] { 
+* input:not(.inline, input[type="submit"]) , * textarea { 
   border: 0.5px var(--text-color) solid;
   display: block;
   height: 2rem;
