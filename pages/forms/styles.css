@@ -13,7 +13,7 @@
 
 /* If I didn't put it here it gave me an error */
 
-* a {
+a {
   color: var(--primary-color);
   text-decoration: none;
 }
@@ -146,7 +146,7 @@ body > form label {
   display: block;
 }
 
-* input:not(.inline, input[type="submit"]) , * textarea { 
+input:not(.inline, input[type="submit"]) , textarea { 
   border: 0.5px var(--text-color) solid;
   display: block;
   height: 2rem;
